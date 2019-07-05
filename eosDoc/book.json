@@ -3,7 +3,7 @@
     "author":"ElizaWang 王永佳",
     "language":"zh-hans",
     "structure":{
-        "readme":"eos.md"
+        "readme":"README.md"
     },
     "gitbook" : "3.2.2",
     "plugins": [
@@ -19,8 +19,8 @@
         "copy-code-button",
         "alerts",
         "api",
-        "theme-comscore",
-        "tags"
+        "tags",
+        "theme-comscore"
     ],
     "pluginsConfig": {
         "github": {
