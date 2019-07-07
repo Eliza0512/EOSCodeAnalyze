@@ -168,7 +168,7 @@
 
 项目原地址 https://github.com/zaphoyd/websocketpp
 
-![websocket](pics/websocket.png)
+![websocket](../pics/websocket.png)
 
 WebSocket 是 HTML5 开始提供的一种在单个 TCP 连接上进行全双工通讯的协议。
 

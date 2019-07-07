@@ -11,6 +11,8 @@ EOS整体构架
 
 ### plugins（插件层）
 
+[查看详情](plugin/plugin.md)
+
 支持动态加载相关组件，实现了应用层的业务逻辑和区块链底层实现的解耦，同时为应用开发者提供友好的API接口，比较重要的有以下几个插件：
 
 chain_plugin
@@ -25,15 +27,15 @@ producer_plugin
 
 为应用层和插件层提供基础能力，实现了区块链的底层关键技术，例如，交易处理，生产区块，加密功能，文件IO操作，网络通信能力等等；
 
-- appbase：为一系列的插件编译提供了一个框架，他可以确保插件正常配置、初始化、启动、关闭这一个流程。 [详细展开](appbase.md)
+- appbase：为一系列的插件编译提供了一个框架，他可以确保插件正常配置、初始化、启动、关闭这一个流程。 [详细展开](library/appbase.md)
 
 - builtins：compiler
 
-- chain：这里面包含有eos作为区块链的核心内容 [详细展开](chain.md)
+- chain：这里面包含有eos作为区块链的核心内容 [详细展开](library/chain.md)
 
-- chainbase：是为了满足区块链应用设计的一个数据库，但是也使用于任意需要一个鲁棒性较高的交易数据库。[详细展开](chainbase.md)
+- chainbase：是为了满足区块链应用设计的一个数据库，但是也使用于任意需要一个鲁棒性较高的交易数据库。[详细展开](library/chainbase.md)
 
-- fc  基础功能函数（与链无关）[详细展开](fc.md)
+- fc  基础功能函数（与链无关）[详细展开](library/fc.md)
 
   - compress
   - container
