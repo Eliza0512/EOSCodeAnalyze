@@ -1,5 +1,7 @@
 EOS整体构架
 
+本文不对EOS虚拟机做详细介绍，详情介绍可以参照[EOS智能合约和虚拟机分析](https://blog.csdn.net/SunnyWed/article/details/81078078)
+
 ## 用户与链的交互过程
 
 ![EOSArchitecture](pics/582e059-411_DevRelations_NodeosGraphic_Option3.png)
